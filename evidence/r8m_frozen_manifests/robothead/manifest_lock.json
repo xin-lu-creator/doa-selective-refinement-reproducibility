@@ -1,0 +1,71 @@
+{
+  "release": "r8-boundary-safe-robothead-confirmation-20260807",
+  "protocol_id": "DOA-R8-BOUNDARY-SAFE-ROBOTHEAD-CONFIRM-20260807",
+  "status": "FROZEN",
+  "manifest": "<LOCAL_PROJECT_ROOT>\\DOA_Paper1_R8_Boundary_Safe_RobotHead_Confirmation_FIX1_20260807\\results\\r8_boundary_safe_robothead_preflight\\R8_BOUNDARY_SAFE_ROBOTHEAD_FROZEN_MANIFEST.csv",
+  "manifest_canonical_sha256": "0de0b5d36deadee33a2000921c84757962fff12227508ae27cd972f0991ab641",
+  "manifest_rows": 576,
+  "recording_count": 29,
+  "array_name": "benchmark2",
+  "native_channel_indices_zero_based": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "boundary_rule": "e0_frozen_coarse_grid_argmin_equals_scan_endpoint",
+  "frozen_r8_core_audit": {
+    "path": "<LOCAL_PROJECT_ROOT>\\DOA_Paper1_R8_Boundary_Safe_RobotHead_Confirmation_FIX1_20260807\\code\\sgf_amusic_route_b\\causal_multiscale_hodge.py",
+    "expected_sha256": "33953738b1eebaa9764b657f38a9b8774d854a5fed4da4d122dc1fa62d5d2d70",
+    "actual_sha256": "33953738b1eebaa9764b657f38a9b8774d854a5fed4da4d122dc1fa62d5d2d70",
+    "status": "PASS"
+  },
+  "coverage": {
+    "gates": {
+      "at_least_8_recordings": true,
+      "all_four_tasks_represented": true,
+      "at_least_96_selected_windows": true,
+      "at_least_two_task1_recordings": true,
+      "at_least_two_task3_recordings": true
+    },
+    "sufficient_recording_count": 29,
+    "represented_tasks": [
+      "task1",
+      "task2",
+      "task3",
+      "task4"
+    ],
+    "task_recording_counts": {
+      "task1": 13,
+      "task2": 6,
+      "task3": 5,
+      "task4": 5
+    },
+    "total_selected_windows": 576
+  },
+  "audit_status": {
+    "root": "<LOCATA_EVAL_ROOT>",
+    "root_exists": true,
+    "array_name": "benchmark2",
+    "recordings_discovered": 46,
+    "recordings_usable": 46,
+    "errors": [],
+    "status": "completed"
+  },
+  "recording_errors": [],
+  "eigenmike_used_only_for_mechanism_discovery": true,
+  "robothead_result_used_to_define_rule": false,
+  "truth_used_for_estimation": false,
+  "truth_used_only_for_declared_scan_domain_eligibility": true,
+  "error_used_for_selection": false,
+  "manual_recording_exclusion_permitted": false,
+  "manual_window_exclusion_permitted": false
+}

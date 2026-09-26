@@ -1,0 +1,89 @@
+{
+  "release": "r8m-frozen-hearingaid-holdout-20260810",
+  "protocol_id": "DOA-R8M-FROZEN-HEARINGAID-HOLDOUT-20260810",
+  "status": "FROZEN",
+  "array_name": "dummy",
+  "native_channel_indices_zero_based": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "manifest_rows": 200,
+  "manifest_canonical_sha256": "3a5f2d06029c3658b7fda92db14d29465060b24de638af0fbcb14845148121ff",
+  "represented_tasks": [
+    "task3",
+    "task4"
+  ],
+  "sufficient_recording_count": 10,
+  "gates": {
+    "unseen_array_detected": true,
+    "exactly_4_channels": true,
+    "at_least_6_sufficient_recordings": true,
+    "task3_and_task4_represented": true,
+    "at_least_72_windows": true,
+    "no_recording_errors": true
+  },
+  "array_detection_diagnostics": [
+    {
+      "array_name": "dummy",
+      "recordings_seen": 10,
+      "channels": 4,
+      "status": "usable"
+    }
+  ],
+  "audit_status": {
+    "root": "<LOCATA_EVAL_ROOT>",
+    "root_exists": true,
+    "array_name": "dummy",
+    "recordings_discovered": 46,
+    "recordings_usable": 46,
+    "errors": [],
+    "status": "completed"
+  },
+  "recording_errors": [],
+  "frozen_estimator": {
+    "method": "full_adaptive_freedom",
+    "assignment_strength": 1.5,
+    "anchor_strength": 0.03,
+    "evidence_change_guard": true
+  },
+  "frozen_hash_audit": {
+    "status": "PASS",
+    "files": [
+      {
+        "path": "code/sgf_amusic_route_b/causal_multiscale_hodge.py",
+        "expected_sha256": "33953738b1eebaa9764b657f38a9b8774d854a5fed4da4d122dc1fa62d5d2d70",
+        "actual_sha256": "33953738b1eebaa9764b657f38a9b8774d854a5fed4da4d122dc1fa62d5d2d70",
+        "status": "PASS"
+      },
+      {
+        "path": "code/sgf_amusic_route_b/mechanism_corrected_r8.py",
+        "expected_sha256": "e1bbd03b892eb5e48fe93ced5987c0375af51e4fb95dbc86c6fdacd484ba8fc4",
+        "actual_sha256": "e1bbd03b892eb5e48fe93ced5987c0375af51e4fb95dbc86c6fdacd484ba8fc4",
+        "status": "PASS"
+      },
+      {
+        "path": "code/sgf_amusic_route_b/mechanism_corrected_r8_structural_funnel.py",
+        "expected_sha256": "5f30e9061598a21a102df8859e691e31e5a3ca228e4d5403ba87204e978d285f",
+        "actual_sha256": "5f30e9061598a21a102df8859e691e31e5a3ca228e4d5403ba87204e978d285f",
+        "status": "PASS"
+      },
+      {
+        "path": "code/sgf_amusic_route_b/mechanism_corrected_r8_evidence_change.py",
+        "expected_sha256": "c070109d52a9a03a319e09155ad2cc4197238aa01d1c6244e0351912e5a5e75f",
+        "actual_sha256": "c070109d52a9a03a319e09155ad2cc4197238aa01d1c6244e0351912e5a5e75f",
+        "status": "PASS"
+      },
+      {
+        "path": "code/sgf_amusic_route_b/mechanism_corrected_r8_multimethod_evidence_change.py",
+        "expected_sha256": "87e050400212f79145c32200f4b39eb3ee9823f87b5987ded1c9ee77f837ddf8",
+        "actual_sha256": "87e050400212f79145c32200f4b39eb3ee9823f87b5987ded1c9ee77f837ddf8",
+        "status": "PASS"
+      }
+    ]
+  },
+  "holdout_errors_inspected_before_freeze": false,
+  "holdout_used_for_tuning": false,
+  "manual_exclusion_permitted": false
+}

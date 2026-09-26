@@ -1,0 +1,11 @@
+{
+  "title": "Reproducibility Package for Reliability-Aware Selective TDOA Refinement for Acoustic Localization",
+  "description": "Code, frozen manifests, and derived results accompanying the RA-STR manuscript. Raw LOCATA audio is not redistributed.",
+  "creators": [{"name": "Lu, Xin", "affiliation": "Iwate University"}],
+  "keywords": ["acoustic source localization", "TDOA", "GCC-PHAT", "SRP-PHAT", "RA-STR", "MST-TDE"],
+  "license": "MIT",
+  "upload_type": "software",
+  "access_right": "open",
+  "version": "1.0.0-submission",
+  "publication_date": "2026-09-26"
+}
