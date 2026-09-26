@@ -48,7 +48,7 @@ The three 576-window array-specific manifests are in `evidence/r8m_frozen_manife
 
 ## Citation
 
-Use `CITATION.cff`. After Zenodo publication, cite the Version DOI corresponding to `v1.0.0-submission`.
+For the TASLP submission, cite the archived `v1.0.0-submission` release using Version DOI [10.5281/zenodo.22970637](https://doi.org/10.5281/zenodo.22970637). The Concept DOI for all versions is [10.5281/zenodo.22970636](https://doi.org/10.5281/zenodo.22970636).
 
 ## License
 

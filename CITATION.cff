@@ -2,6 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite this archived software release and the associated manuscript."
 title: "Reproducibility Package for Reliability-Aware Selective TDOA Refinement for Acoustic Localization"
 version: "1.0.0-submission"
+doi: "10.5281/zenodo.22970637"
 date-released: "2026-09-26"
 type: software
 authors:
